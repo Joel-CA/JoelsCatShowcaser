@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400;700&display=swap);
+
+index {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #F69680;
+  color: #2E1263;
+  font-family: "Source Code Pro";
+  font-weight: 200;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 70px;
+  text-transform: uppercase;
+  border-top: 5px solid;
+}
+
+.circle-crop {
+  /* position: relative;
+  width: 50%; /* Adjust as needed
+  aspect-ratio: 1/1; /* Set aspect ratio to 1:1
+  border-radius: 50%; /* Create a circle shape
+  overflow: hidden; /* Hide any overflowing content
+  */
+  width: 400px; /* Set your desired width here */
+  height: 400px; /* Set your desired height here */
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circle-crop img {
+  /* display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+button {
+  margin: 30px auto 0;
+  padding: 20px 25px;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  outline: none;
+  color: #2E1263;
+  border: 1px solid #2E1263;
+  background-color: #F69680;
+}
+
+button:hover {
+  transition: 0.3s;
+  background-color: #2E1263;
+  color: #F69680;
+  text-decoration: underline;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+p {
+  font-size: 20px;
+}
