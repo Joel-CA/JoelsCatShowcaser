@@ -10,6 +10,9 @@ body {
   color: #2E1263;
   font-family: "Source Code Pro";
   font-weight: 200;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -20,16 +23,12 @@ h1 {
 }
 
 .circle-crop {
-  /* position: relative;
-  width: 50%; /* Adjust as needed
-  aspect-ratio: 1/1; /* Set aspect ratio to 1:1
-  border-radius: 50%; /* Create a circle shape
-  overflow: hidden; /* Hide any overflowing content
-  */
-  width: 400px; /* Set your desired width here */
-  height: 400px; /* Set your desired height here */
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   overflow: hidden;
+  display: block;
+  margin: 20px auto;
 }
 
 .circle-crop img {
@@ -74,4 +73,24 @@ button:hover {
 
 p {
   font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .circle-crop {
+    width: 250px;
+    height: 250px;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  p {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+  
+  #container {
+    padding: 10px;
+  }
 }
