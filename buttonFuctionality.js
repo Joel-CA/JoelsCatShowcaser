@@ -24,14 +24,12 @@ let catPics = [
 ];
 
 let moreCatPics = [
-"cat_pics/cats_pic2.jpg",
-"cat_pics/cats_pic4.jpg", 
-"cat_pics/cats_pic7.jpg",
-"cat_pics/cats_pic9.jpg",
-"cat_pics/cats_pic11.jpg",
-"cat_pics/cats_pic13.jpg",
-"cat_pics/cats_pic0.jpg",
-"cat_pics/cats_pic3.jpg"
+  "cat_pics/cats_pic14.jpg",
+  "cat_pics/cats_pic15.jpg",
+  "cat_pics/cats_pic16.jpg",
+  "cat_pics/cats_pic17.jpg",
+  "cat_pics/cats_pic18.jpg",
+  "cat_pics/cats_pic19.jpg"
 ];
 
 window.addEventListener("load", function(){
