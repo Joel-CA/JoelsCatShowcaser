@@ -2,22 +2,21 @@ let image = document.getElementsByTagName("img")[0];
 let button = document.getElementsByTagName("button")[0];
 let imageCount;
 
-// Update these paths to match your uploaded image names in Object Storage
 let catPics = [
-"/api/objects/cat1.jpg",
-"/api/objects/cat2.jpg", 
-"/api/objects/cat3.jpg",
-"/api/objects/cat4.jpg",
-"/api/objects/cat5.jpg",
-"/api/objects/cat6.jpg",
-"/api/objects/cat7.jpg",
-"/api/objects/cat8.jpg",
-"/api/objects/cat9.jpg",
-"/api/objects/cat10.jpg",
-"/api/objects/cat11.jpg",
-"/api/objects/cat12.jpg",
-"/api/objects/cat13.jpg",
-"/api/objects/cat14.jpg"
+"cat_pics/cats_pic0.jpg",
+"cat_pics/cats_pic1.jpg",
+"cat_pics/cats_pic2.jpg", 
+"cat_pics/cats_pic3.jpg",
+"cat_pics/cats_pic4.jpg",
+"cat_pics/cats_pic5.jpg",
+"cat_pics/cats_pic6.jpg",
+"cat_pics/cats_pic7.jpg",
+"cat_pics/cats_pic8.jpg",
+"cat_pics/cats_pic9.jpg",
+"cat_pics/cats_pic10.jpg",
+"cat_pics/cats_pic11.jpg",
+"cat_pics/cats_pic12.jpg",
+"cat_pics/cats_pic13.jpg"
 ];
 
 window.addEventListener("load", function(){
